@@ -1,0 +1,22 @@
+<header class="col-12 p-3">
+<h1><a href="">{{title}}</a></h1>
+<h2>{{description}}</h2>
+	<section>
+		<div class="banner-img">
+			<img src="{{url_for('static',filename='banner-img.png')}}"/>
+		</div>
+	</section>
+</header>
+<style>
+	.banner-img{
+		width: 100% - 10%;
+		height: 300px;
+		margin: 0 auto;
+		padding: 5px;
+		overflow: hidden;
+	}
+	.banner-img img{
+		width: 100%;
+		height: 100%;
+	}
+</style>
